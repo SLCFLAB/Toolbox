@@ -1,6 +1,6 @@
 # Toolbox
 Multi-Basin Support-Based Clustering Toolbox for Matlab
-(developed by Daewon Lee, Sujee Lee, Kyu-Hwan Jung, Kyoungok Kim, Youngdoo Son and Jaewook Lee)
+(developed by D. Lee, S. Lee, K.-H. Jung, K. Kim, Y. Son, and Jaewook Lee)
 
 The support-based clustering methods, like support vector clustering and Gaussian process clustering, use the contour of an estimated support of a data distribution as a cluster boundary. These methods generally consist in two main steps. First step is support function training step to estimate a support of a data distribution. Second step is cluster labeling step to assign each data to its corresponding cluster. There are many researches focused on the labeling step, for example, complete graph-based strategy, proximity graph-based strategy and dynamic system-based strategy. Also, for the estimation of the support function, in the first step, we can use several algorithms like support vector data description (SVDD) or Gaussian process (GP) The MSCTOOLBOX is the implementation of the support-based clustering method using SVDD and variance of GP as the estimated support function and the basic complete graph-based labeling and a variety of dynamic system-based labeling methods in the Matlab language.
 
